@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2020", "dom"],
+        "noImplicitAny": true
+    },
+    "typedocOptions": {
+        "name": "txiki.js",
+        "entryPoints": [ "types/" ],
+        "entryPointStrategy": "expand",
+        "out": "api/",
+        "readme": "intro.md",
+        "disableSources": true
+    }
+}
